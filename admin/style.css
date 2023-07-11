@@ -1,0 +1,7 @@
+body{
+	background: linear-gradient(45deg, red, blue);
+}
+.welcom{
+	text-align: center;
+  	font-size: 50px;
+}

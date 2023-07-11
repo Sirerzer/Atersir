@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+</head>
+<body>
+<form action="/page-traitement-donnees" method="post">
+<div>
+<label for="nom">Votre nom</label>
+<input type="text" id="nom" name="nom" placeholder="Martin" required>
+</div>
+
+<label for="sujet">Quel est le sujet de votre message ?</label>
+<select name="sujet" id="sujet" required>
+<option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+<option value="probleme-compte">Problème avec mon compte</option>
+<option value="question-produit">Question à propos d’un produit</option>
+<option value="suivi-commande">Suivi de ma commande</option>
+<option value="autre">Autre...</option>
+</select>
+</div>
+<div>
+<label for="message">Votre message</label>
+<textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+</div>
+<div>
+<button type="submit">Envoyer mon message</button>
+</div>
+</form>
+</body>
+</html>
