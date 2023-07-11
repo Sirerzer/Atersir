@@ -1,7 +1,7 @@
 body{
 	background: linear-gradient(45deg, red, blue);
 }
-.welcom{
+.ere{
 	text-align: center;
   	font-size: 50px;
   	color: black;
@@ -9,16 +9,11 @@ body{
 .gotothelogin{
 	text-align: center;
   	font-size: 50px;
-  	background: linear-gradient(45deg, blue, red);
+  	background: #252526;
   	position: absolute;
-  	top: 150px; 
-  	left: 300px;
-  	right: 300px;
-  	bottom: 750px;
+  	top: 200px; 
+  	left: 200px;
+  	right: 200px;
+  	bottom: 700px;
   	text-align: center;
-}
-.centre {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

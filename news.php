@@ -3,15 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>panel admin</title>
+	<title>News</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
-
-		<h1 class="welcom">Bienvenue sur le panel Administrateur</h1>
-		<h1></h1>
-		<input type="button" onclick="location.href='login.html';" value="Login" class="gotothelogin" />
-
+	
+	<?php 
+	include 'navbard.php';
+	 ?>
 </body>
 </html>
