@@ -1,0 +1,88 @@
+enforce_secure_profile: false
+listeners:
+- bind_local_address: true
+  force_default_server: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  host: 0.0.0.0:10725
+  max_players: 200
+  motd: '&6&lCraftpyx &1&l>&a&l>&c&l> &3&lServeur &b&lFra&f&lnç&4&lais &b&l(1.8.9-1.20.1)  &r&l&b&lMini
+    jeu &8&l▪ &a&lOne block ▪ &c&lPvp faction'
+  ping_passthrough: false
+  priorities:
+  - lobby
+  proxy_protocol: false
+  query_enabled: false
+  query_port: 10725
+  tab_list: GLOBAL_PING
+  tab_size: 60
+remote_ping_cache: -1
+network_compression_threshold: 256
+permissions:
+  admin:
+  - gexecute.admin
+  - maintenance.admin
+  - maintenance.bypass
+  - maintenance.singleserver.status
+  - maintenance.singleserver.timer
+  - maintenance.singleserver.toggle
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - bungeecord.command.send
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+  default:
+  - bungeecord.command.send
+  - bungeecord.command.server
+log_pings: true
+connection_throttle_limit: 3
+server_connect_timeout: 5000
+timeout: 30000
+stats: c35e868a-8937-4171-8c41-f64a2e3007c0
+player_limit: 9999
+ip_forward: true
+groups:
+  Sir_200:
+  - admin
+  Tigedemetal60:
+  - admin
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+prevent_proxy_connections: false
+online_mode: true
+forge_support: true
+disabled_commands:
+- disabledcommandhere
+servers:
+  DorsiCraft:
+    address: game4.falixserver.net:63777
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  bedwars:
+    address: game1.falixserver.net:49798
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  lobby:
+    address: game7.falixserver.net:28021
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  one_block:
+    address: game7.falixserver.net:35699
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  pvp-faction:
+    address: game6.falixserver.net:59173
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  laser_game:
+    address: game3.falixserver.net:55805
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false
+  pixelwars:
+    address: play.craftpyx.pixel.wars.falix.gg
+    motd: '&1Just another BungeeCord - Forced Host'
+    restricted: false

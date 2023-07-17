@@ -1,0 +1,10 @@
+# DO NOT SHARE THE VALUES OF THESE FIELDS WITH ANYONE
+
+# PORT on which GE Daemon should listen
+# It must be publicly accessible
+# You may have to manually assign this port on your server hosting panel
+# Make sure that this port is not already in use
+PORT: 21407
+
+# PASSWORD required for letting GE clients connect to this Daemon
+PASSWORD: 'Sir_200!'
