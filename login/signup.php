@@ -15,278 +15,6 @@
  <body> <!-- partial:index.partial.html --> 
 
   <section> 
-  	<span></span>
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span>
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-  	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span> 
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
-	<span></span>
 
 
  <div class="signin">
@@ -300,9 +28,7 @@
                 <div class="inputBox">
                     <input type="text" name="pseudo" required> <i>Username</i>
                 </div>
-                <div class="inputBox">
-                    <input type="email" id="email" name="email" required><i>Email</i>
-                </div>
+     
                 <div class="inputBox">
                     <input type="password" name="modepass" required> <i>Password</i>
                 </div>
@@ -328,7 +54,7 @@
     		global $conn;
             if (isset($_POST['submit'])) {
                 $pseudo = $_POST['pseudo'];
-                $email = $_POST['email'];
+               
                 $motdepasse = $_POST['modepass'];
 				$options = [
     				'cost' => 12,
@@ -336,11 +62,14 @@
      			$mdt = password_hash($motdepasse, PASSWORD_BCRYPT, $options);
 
 
-                $q = $conn->prepare("INSERT INTO useri (pseudo, email, motdepasse) VALUES (?, ?, ?)");
-                $q->bind_param("sss", $pseudo, $email, $mdt);
+                $q = $conn->prepare("INSERT INTO useri (pseudo, email, motdepasse) VALUES (?,  ?)");
+                $q->bind_param("sss", $pseudo, $mdt);
+
 
                 if ($q->execute()) {
                     echo "Data inserted successfully!";
+                    mkdir('../'.$pseudo ,777);
+                    echo "<meta http-equiv='refresh' content='0;url=../index.php'>";
                 } else {
                     echo "Error: " . $q->error;
                 }

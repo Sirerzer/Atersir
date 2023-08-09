@@ -1,4 +1,6 @@
-<?php session_start() ?>
+<?php 
+session_start()
+ ?>
 
 <!doctype html>
 
@@ -10,17 +12,14 @@
 
   <title></title> 
 
-  <link rel="stylesheet" href="./index.css"> 
-  <link rel="stylesheet" href="../style.css"> 
+  <link rel="stylesheet" href="index.css"> 
  
 
  </head> 
 
  <body> <!-- partial:index.partial.html --> 
  
-
-  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
- 
+  <section> 
 <div class="signin">
     <div class="content">
         <h2>Login</h2>
@@ -43,36 +42,40 @@
         </form>    
     </div>
 </div>
-
+<style type="text/css"></style>
 <?php 
-    include '../serveur/database.php';
-    global $conn;
-    if (isset($_POST['submit'])) {
-        $pseudo = $_POST['pseudo'];
-        $motdepasse = $_POST['modepass'];
+include '../serveur/database.php';
+global $conn;
 
+if (isset($_POST['submit'])) {
+    $pseudo = $_POST['pseudo'];
+    $motdepasse = $_POST['modepass'];
 
-       $q = $conn->prepare("SELECT * FROM useri WHERE pseudo = ?");
-          $q->bind_param('s', $pseudo);
-          $q->execute();
+    $q = $conn->prepare("SELECT * FROM useri WHERE pseudo = ?");
+    $q->bindValue(1, $pseudo);
+    $q->execute();
 
-       if ($q->execute()) {
-    $result = $q->get_result()->fetch_assoc();
-    if ($result != null) {
-        $hashpassword = $result['motdepasse'];
-        if (password_verify($motdepasse, $hashpassword)) {
-            echo "good";
-            $_SESSION['name'] = $pseudo;
+    if ($q->execute()) {
+        $result = $q->fetch(PDO::FETCH_ASSOC);
+        if ($result != null) {
+            $hashpassword = $result['motdepasse'];
+            if (password_verify($motdepasse, $hashpassword)) {
+                echo "good";
+                $_SESSION['name'] = $pseudo;
+                $_SESSION['admin'] = $result['adminlevel'];
+                $_SESSION['offre'] = $result['plan'];
+                echo '<meta http-equiv="refresh" content="0;url=../index.php">';
+            } else {
+                echo "error";
+            }
         } else {
-            echo "error";
+            echo "erreur pseudo incorrecte";
         }
     } else {
-        echo "erreur pseudo incorrecte";
+        echo "Erreur lors de l'exécution de la requête SQL.";
     }
-} else {
-    echo "Erreur lors de l'exécution de la requête SQL.";
 }
-}
+
 ?>
       
 

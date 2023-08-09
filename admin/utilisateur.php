@@ -18,10 +18,7 @@ if (isset($_POST['ze'])) {
     
     while ($user = $result->fetch_assoc()) {
         echo "| id: " . $user['id'] . " | pseudo: " . $user['pseudo'] . " | email: " . $user['email'] . "<hr/>";
-        $options = [
-    'cost' => 12,
-	];
-	echo password_hash("rasmuslerdorf", PASSWORD_BCRYPT, $options);
+
 
     }
 

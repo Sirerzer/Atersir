@@ -1,14 +1,14 @@
-<?php 
-	define('HOST', 'localhost');
-	define('DB_NAME', 'user');
-	define('USER', 'root');
-	define('PASS', 'Sir_200!');
-	try{ 
-		$db = new PDO("mysql:host=" . HOST .";dbname=" . DB_NAME ,USER,PASS);
-		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_Exeception);
-		echo "Conetez ok";
-	} catch (PDOExeception $e){
-		echo $e;
-	}
+<?php
+define('HOST', 'localhost');
+define('DB_NAME', 'user');
+define('USER', 'root');
+define('PASS', '');
 
+try { 
+    $conn = new PDO("mysql:host=" . HOST . ";dbname=" . DB_NAME, USER, PASS);
+    $conn ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  
+} catch (PDOException $e) {
+    echo $e;
+}
 ?>

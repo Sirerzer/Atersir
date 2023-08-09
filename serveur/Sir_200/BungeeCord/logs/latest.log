@@ -1,0 +1,155 @@
+[16:28:59] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:28:59] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[16:29:00] [Worker-Main-5/INFO]: Loaded 7 recipes
+[16:29:02] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:29:02] [Server thread/INFO]: Loading properties
+[16:29:03] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[16:29:03] [Server thread/INFO]: Debug logging is disabled
+[16:29:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:29:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:29:03] [Server thread/INFO]: Default game type: SURVIVAL
+[16:29:03] [Server thread/INFO]: Generating keypair
+[16:29:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[16:29:04] [Server thread/INFO]: Using default channel type
+[16:29:08] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
+[16:29:08] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.7.0
+[16:29:08] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[16:29:09] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1-dev+37-b2ae28b
+[16:29:09] [Server thread/INFO]: Preparing level "world"
+[16:29:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:29:10] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:29] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:29:35] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[16:29:35] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[16:29:35] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[16:29:35] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[16:29:35] [Worker-Main-12/INFO]: Preparing spawn area: 47%
+[16:29:36] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:29:36] [Worker-Main-13/INFO]: Preparing spawn area: 83%
+[16:29:36] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:29:36] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:29:36] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[16:29:37] [Worker-Main-12/INFO]: Preparing spawn area: 84%
+[16:29:37] [Worker-Main-12/INFO]: Preparing spawn area: 84%
+[16:29:38] [Server thread/INFO]: Preparing spawn area: 86%
+[16:29:38] [Server thread/WARN]: Skipping Entity with id scp:rat
+[16:29:38] [Server thread/INFO]: Preparing spawn area: 97%
+[16:29:38] [Server thread/INFO]: Time elapsed: 28646 ms
+[16:29:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:29:39] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[16:29:39] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[16:29:39] [Worker-Main-12/INFO]: Preparing spawn area: 1%
+[16:29:40] [Worker-Main-14/INFO]: Preparing spawn area: 4%
+[16:29:40] [Worker-Main-12/INFO]: Preparing spawn area: 8%
+[16:29:41] [Worker-Main-12/INFO]: Preparing spawn area: 9%
+[16:29:41] [Worker-Main-13/INFO]: Preparing spawn area: 15%
+[16:29:42] [Worker-Main-14/INFO]: Preparing spawn area: 16%
+[16:29:44] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[16:29:44] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[16:29:44] [Worker-Main-13/INFO]: Preparing spawn area: 23%
+[16:29:44] [Worker-Main-14/INFO]: Preparing spawn area: 26%
+[16:29:44] [Worker-Main-12/INFO]: Preparing spawn area: 34%
+[16:29:45] [Worker-Main-14/INFO]: Preparing spawn area: 42%
+[16:29:45] [Worker-Main-14/INFO]: Preparing spawn area: 50%
+[16:29:46] [Worker-Main-14/INFO]: Preparing spawn area: 54%
+[16:29:46] [Worker-Main-12/INFO]: Preparing spawn area: 63%
+[16:29:47] [Worker-Main-13/INFO]: Preparing spawn area: 72%
+[16:29:47] [Worker-Main-12/INFO]: Preparing spawn area: 77%
+[16:29:48] [Worker-Main-12/INFO]: Preparing spawn area: 87%
+[16:29:48] [Server thread/INFO]: Time elapsed: 9985 ms
+[16:29:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:29:49] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[16:29:49] [Worker-Main-14/INFO]: Preparing spawn area: 10%
+[16:29:49] [Worker-Main-13/INFO]: Preparing spawn area: 51%
+[16:29:50] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[16:29:50] [Server thread/INFO]: Time elapsed: 1529 ms
+[16:29:50] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
+[16:29:51] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[16:29:51] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[16:29:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[16:29:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1-dev+37-b2ae28b
+[16:29:51] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[16:29:51] [Server thread/INFO]: Creating config from template: plugins\Essentials\config.yml
+[16:29:51] [Server thread/WARN]: Missing userdata folder, aborting
+[16:29:51] [Server thread/INFO]: Creating config from template: plugins\Essentials\kits.yml
+[16:29:51] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[16:29:51] [Server thread/INFO]: No kits found to migrate.
+[16:29:51] [Server thread/INFO]: Starting Essentials ban format conversion
+[16:29:51] [Server thread/INFO]: Attempting to migrate ignore list to UUIDs
+[16:29:51] [Server thread/INFO]: Attempting to migrate legacy userdata keys to Configurate
+[16:29:51] [Server thread/INFO]: Creating config from template: plugins\Essentials\worth.yml
+[16:29:51] [Server thread/INFO]: Creating config from template: plugins\Essentials\tpr.yml
+[16:29:52] [Server thread/INFO]: Loaded 39094 items from items.json.
+[16:29:52] [Server thread/INFO]: Creating config from template: plugins\Essentials\custom_items.yml
+[16:29:52] [Server thread/INFO]: Using locale fr_FR
+[16:29:52] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[16:29:52] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[16:29:52] [Server thread/INFO]: Using superperms-based permissions.
+[16:29:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:29:52] [Server thread/INFO]: Done (43.199s)! For help, type "help"
+[16:29:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[16:29:52] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_361). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[16:29:52] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:29:52] [Craft Scheduler Thread - 1/INFO]: §6Récupération des informations de version...
+[16:37:49] [Server thread/INFO]: Stopping server
+[16:37:49] [Server thread/INFO]: Disabling Essentials v2.20.1-dev+37-b2ae28b
+[16:37:49] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[16:37:49] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[16:37:49] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
+[16:37:49] [Server thread/INFO]: Saving players
+[16:37:49] [Server thread/INFO]: Saving worlds
+[16:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:37:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:37:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

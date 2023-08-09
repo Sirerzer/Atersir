@@ -1,15 +1,17 @@
+<?php
+
+?>
+<script src="https://kit.fontawesome.com/4bfe10eef3.js" crossorigin="anonymous"></script>
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title></title>
-	<script type="text/javascript">
-		var file = new ActiveXObject("Scripting.FileSystemObject");
-		var a = file.CreateTextFile("c:\\testfile.txt", true);
-		a.WriteLine("Salut cppFrance !");
-		a.Close();
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Atersir | main page</title>
+	<link rel="icon" type="image/x-icon" href="/img/atersir.jpg">
+	
 
 	</script>
 </head>
@@ -17,15 +19,27 @@
 	<head>
 		<?php 
 			include 'navbard.php';
-			 ?>
+		 ?>
+
+
 	</head>
 	<main>
-		<i class="fa-brands fa-github"></i>
-		<i class="fa-brands fa-github"></i>
-		<h1>Bonjour bienvenue sur Atersir</h1>
+		
+		<h1>Bienvenue sur Atersir<br/>Serveurs minecraft
+gratuit pour toujours.</h1>
+		<br>
+		<iframe src="https://discord.com/widget?id=1128268845086412822&theme=dark" width="500" height="850" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		<br>
+		<br>
+
+
+
+	</div>
 	</main>
-	<footer id="footer">
-		<h1>projet open source<a href="https://github.com/Sirerzer/Atersir"><i class="fa-brands fa-github"></i></a> </h1>
-	</footer>
+	<?php
+	include 'footer.php';
+	
+	  ?>
+	  
 </body>
 </html>
